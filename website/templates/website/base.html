@@ -7,9 +7,8 @@
   <title>{% block title %}Portfolio{% endblock %}</title>
   <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
@@ -19,7 +18,7 @@
     <div class="logo"><a href="{% url 'home' %}">Portfolio</a></div>
     <ul class="nav-links">
       <li><a href="{% url 'home' %}"><ion-icon name="home-outline"></ion-icon> Home</a></li>
-      <!--<li><a href="{% url 'projects' %}"><ion-icon name="folder-outline"></ion-icon> Projects</a></li>-->
+      <li><a href="{% url 'projects' %}"><ion-icon name="folder-outline"></ion-icon> Projects</a></li>
       <li><a href="{% url 'skills' %}"><ion-icon name="code-slash-outline"></ion-icon> Skills</a></li>
       <li><a href="{% url 'contact' %}"><ion-icon name="mail-outline"></ion-icon> Contact</a></li>
     </ul>
